@@ -50,19 +50,3 @@ mosquitto_pub -h 10.0.75.1 -m "21" -t house/room1/temp1
 mosquitto_sub -h 10.0.75.1 -t house/#
 ~~~
 
-## Klient C#
-
-~~~ 
-PM> Install-Package MQTTnet.AspNetCore
-~~~
-
-
-## Links
-
-* Dobre praktyki
-https://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices
-
-* Wiki MQTTnet
-https://github.com/chkr1011/MQTTnet/wiki/Client
-
-* Tools http://www.steves-internet-guide.com/mosquitto_pub-sub-clients/
